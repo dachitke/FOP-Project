@@ -15,7 +15,7 @@ Wend
 
 
 If reverse = num Then
-    print "Palindrome"
+    print 1
 Else
-    print "Not Palindrome"
+    print 0
 End If
