@@ -7,7 +7,7 @@ Dim i As Integer = 2
 
 If n = 1 Then
     fib = a
-ElseIf n = 2 Then
+If n = 2 Then
     fib = b
 Else
     While i < n
