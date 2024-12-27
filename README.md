@@ -77,6 +77,27 @@ if 5 < 10-correct
 ________________________________________________________________________________________________________________________________________________________________
 even though Marta pushed and merged code she is not appeared in contributors list. dont know why
 
+also test cases that are given was written before we started coding and needs little change but every one of them is writable with given interpreter 
+for example this is prime number check:
+
+
+Dim num as Integer = 29
+Dim isPrime as Integer = 1
+Dim i as Integer = 2
+Dim temp as Integer
+Dim temp2 as Integer 
+
+temp = num / 2
+                    
+While i < temp
+     temp2 = num % i                    
+     If temp2 = 0 Then
+           isPrime = 0       
+     End If
+     i = i + 1
+Wend                
+print isPrime
+
 
 
 
